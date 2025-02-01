@@ -202,26 +202,4 @@
 
 // Enacaputalation
 
-#include<iostream>
-using namespace std;
-class BankAccout{
-    int BankACnumber;
-    double Balance;
-    public:
-    BankAccout(int acN,double intialbalance){
-        BankACnumber=acN;
-        Balance=(intialbalance>=0)? intialbalance:0;
-    }
-    void deposit(double amount){
-        if(amount>0){
-            Balance+=amount;
-            cout<<"the deposit of amount is:"<<amount<<endl;
-            cout<<"the Balance is :"<<Balance;
-        }else{
-            cout<<"the depo"
-        }
 
-    }
-
-
-}
